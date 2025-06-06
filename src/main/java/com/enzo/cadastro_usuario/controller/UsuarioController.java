@@ -30,7 +30,7 @@ public class UsuarioController {
     }
 
     @PutMapping
-    public ResponseEntity<Void> updateUsuario(@RequestBody Long id, @RequestBody Usuario usuario){
+    public ResponseEntity<Void> updateUsuario(@RequestParam Long id, @RequestBody Usuario usuario){
         usuarioService.updateById(id, usuario);
         return ResponseEntity.ok().build();
     }
