@@ -18,14 +18,16 @@ Este projeto é uma API REST desenvolvida em Java com Spring Boot, que realiza o
 
 ## 📁 Estrutura do Projeto
 
+```text
 src
 └── main
     ├── java
     │   └── com.enzo.cadastro_usuario
     │       ├── controller
     │       │   └── UsuarioController.java
-    │       ├── business.service
-    │       │   └── UsuarioService.java
+    │       ├── business
+    │       │   └── service
+    │       │       └── UsuarioService.java
     │       └── infrastructure
     │           ├── entity
     │           │   └── Usuario.java
