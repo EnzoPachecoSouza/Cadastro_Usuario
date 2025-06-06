@@ -34,6 +34,7 @@ src
     │           └── repository
     │               └── UsuarioRepository.java
 
+```
 ---
 
 ## 📌 Funcionalidades
